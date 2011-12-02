@@ -1,0 +1,21 @@
+Wie schreibe ich Markdown?
+==========================
+
+Listen einfach via \* erstellen:
+
+* Was
+* Noch was
+
+Nummeriert: Einfach die Nummer davor schreiben!
+
+1. Erstens
+2. Zweitens
+
+Einen Link kann man so erzeugen: [Markdown-Syntax-Doku](http://daringfireball.net/projects/markdown/)
+
+Code einfach mit vier Leerzeichen einrücken:
+
+    int main(void) {
+        int ret = 0;
+        return ret;
+    }
