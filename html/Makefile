@@ -1,6 +1,6 @@
 default: html
 html:
-	for f in $$(find ../md/ | sed 1d); do \
+	for f in $$(find ../md/ -type f -not -name "*~"); do \
 		if [ ! -d $$f ]; then \
 			echo -n generating $${f#../md/}.html... ; \
 			(cat .generate/header.html; \
