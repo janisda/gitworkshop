@@ -12,4 +12,4 @@ html:
 		> $${f#../md/}.html; echo done.; \
 	done
 clean:
-	rm -f *.html
+	find . -name "*.html" | xargs rm -f
