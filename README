@@ -1,0 +1,12 @@
+README
+======
+
+* Bitte nur die Dateien unterhalb von `md/` editieren
+* Autogeneriertes HTML wird unter `html/` erzeugt.
+* Bitte kein HTML einchecken!
+
+Dem Repo liegt eine Kopie des Markdown-Compilers bei.
+Einfach wie folgt kompilieren:
+
+    $ cd html
+    $ make
