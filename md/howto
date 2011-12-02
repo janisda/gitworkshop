@@ -12,6 +12,13 @@ Nummeriert: Einfach die Nummer davor schreiben!
 2. Zweitens
 
 Einen Link kann man so erzeugen: [Markdown-Syntax-Doku](http://daringfireball.net/projects/markdown/)
+Alternative Syntax: [Freitagsrunde][fr] (mit Link-URL danach).
+
+[fr]: http://wiki.freitagsrunde.org/TechTalks
+
+Zitate wie in E-Mails kennzeichnen:
+
+> Sie sagt, er sagt, ...
 
 Code einfach mit vier Leerzeichen einrücken:
 
@@ -19,3 +26,7 @@ Code einfach mit vier Leerzeichen einrücken:
         int ret = 0;
         return ret;
     }
+
+-----
+
+So macht man eine horizontale Linie
