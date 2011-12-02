@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CLUBS = {magnet,goldengate}
+
+for i in $CLUBS
+do
+	cat $i >> AlleClubs
+done 
